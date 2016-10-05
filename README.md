@@ -24,5 +24,8 @@
   
   $ sudo apt-get install php5.5
 
+## Install Extension form PHP 5.5
   $ sudo apt-get install php5.5-mbstring php5.5-mcrypt php5.5-mysql php5.5-xml
+
+  $ apt-get install php5.5-gd
 
