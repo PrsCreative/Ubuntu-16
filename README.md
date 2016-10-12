@@ -44,5 +44,7 @@
   
   $ git rm --cached test.dll
   
+  $ git reset
+  
   
 
