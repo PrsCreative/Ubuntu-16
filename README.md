@@ -28,4 +28,21 @@
   $ sudo apt-get install php5.5-mbstring php5.5-mcrypt php5.5-mysql php5.5-xml
 
   $ apt-get install php5.5-gd
+    
+## Git command
+  $ git add --all
+  
+  $ git commit -m " Message "
+  
+  $ git push origin master
+  
+  $ git status
+  
+  $ git fetch
+  
+  $ git clean --f
+  
+  $ git rm --cached test.dll
+  
+  
 
