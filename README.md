@@ -38,6 +38,9 @@
   
   $ git fetch
   
+## Create database UTF-8
+  $ CREATE DATABASE database_name DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+  
   $ git clean --f
   
   $ git rm --cached test.dll
