@@ -47,7 +47,7 @@
 ## Create database UTF-8  
   $ CREATE DATABASE database_name DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
   
-## SWITCH PHP Version
+## Install PHP5.6 , 7.0
   $ sudo add-apt-repository ppa:ondrej/php
 
   $ sudo apt-get update
