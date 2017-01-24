@@ -53,18 +53,18 @@
   $ sudo apt-get update
 
   $ sudo apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0
-
-  ## From php5.6 to php7.0 :
+  
+## From php5.6 to php7.0 :
   Apache:
   $ sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart
 
   CLI:
   $ update-alternatives --set php /usr/bin/php7.0
-
-  ## From php7.0 to php5.6 :
+  
+## From php7.0 to php5.6 :
   Apache:
   $ sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
-
+  
   CLI:
   $ sudo update-alternatives --set php /usr/bin/php5.6
 
